@@ -1,11 +1,9 @@
 # ADStore
 Street wear store
 
-
-<h1>👋 &nbsp;Olá, eu sou o Vagner, um desenvolvedor frontend apaixonado pelo que faz!</h1>
 <h2>About</h2>
 
-- ADStore is a friend's street wear store located in Australia
+- ADStore is a friend's street wear store located in Australia. I've used Html, Css and Javascript to develop the ecommerce. 
 
 <h3>💻 &nbsp;Front-end:</h3>
 
