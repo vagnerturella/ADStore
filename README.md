@@ -1,9 +1,17 @@
 # ADStore
 Street wear store
 
-<h2>About</h2>
+<h2>Sobre</h2>
 
-- ADStore is a friend's street wear store located in Australia. I've used Html, Css and Javascript to develop the ecommerce. 
+- ADStore é uma loja online de um amigo, localizado na australia. Resolvi aplicar meus conhecimentos e replicar o projeto. Para desenvolver o e-commerce foi utilizado html, css e javascript. 
+- As páginas estão todas responsivas.
+- Menu dropdown com informçoes da loja e dos produtos.
+- Card do produto, mostrando imagem, nome, preço, porcentagem de desconto.
+- Carousel de cards responsivo.
+- Sobre a loja.
+- Reviews reais de clientes.
+- Opção para login (somente ilustrativo)
+- Opção Add to Cart (somente ilustrativo)
 
 <h3>💻 &nbsp;Front-end:</h3>
 
