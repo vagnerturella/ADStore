@@ -1,0 +1,114 @@
+
+
+.titulo{
+	text-align: center;
+	margin-top: 3rem;
+}
+
+.header{
+    height: 300px;
+  }
+
+
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	
+}
+
+#container {
+	width:55%;
+	margin:auto;
+	
+}
+
+.form-contact {
+	padding:20px 24px;
+	background:#fff;
+	border-radius:.5em;
+}
+
+.img[title="avatar"]{
+	border-radius:15%;
+	width:90px;
+}
+
+.img{
+	display:block;
+	margin:1em auto 2em;
+}
+
+label {
+	display:block;
+	margin-bottom:0.5em;
+	font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	font-size:1em;
+	color:#000;
+	font-weight:300;
+	width:100%;
+	height:auto;
+	margin-bottom:1.2em;
+	
+}
+
+input{
+	outline:0;
+	border:none;
+	padding:15px;
+	border-radius:0em;
+	border-bottom:3px solid #000;
+	margin-bottom: 3rem;
+}
+
+input[type="submit"]{
+	font-size:1rem;
+	font-weight:400;
+	cursor:pointer;
+	color:#fff;
+	padding-left:30px;
+	padding-right:30px;
+	text-align:center;
+	width: 200px;
+	display:block;
+	margin:1em auto 1em;
+    background-color: #000;
+	margin-bottom: 10rem;
+	margin-top: 1rem;
+}
+
+input[type="submit"]:hover{
+	font-size: 1.1rem;
+	width: 220px;
+	transition: 0.2s;
+}
+
+.icon{
+    width: 36px;
+    margin-top: 0.0rem;
+}
+
+.mg{
+    margin-top: -0.5rem;
+}
+
+.msg {
+    margin-top: 3.5rem;
+}
+
+@media only screen and (max-width: 500px){
+	.titulo{
+		margin-top: -2.5rem;
+	}
+	
+	.form-contact {
+		padding: 0px;
+		
+	}
+}

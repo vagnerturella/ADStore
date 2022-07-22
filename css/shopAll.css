@@ -1,0 +1,69 @@
+.header{
+    height: 300px;
+  }
+
+  .titulos{
+    font-size: 35px;
+    margin-top: 2rem;
+  }
+
+  .shop-all{
+    margin: auto;
+    
+
+  }
+
+.mais-vendidos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.card-img {
+    width: 300px;
+    height: 450px;
+    align-items: center;
+}
+
+.card {
+    padding: 1rem;
+    width: 300px;
+    height: 600px;
+    object-fit: contain;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.text-card{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 770px){
+    .card {
+        padding: 2px;
+        width: 180px;
+        height: 410px;
+        margin-bottom: 0rem;
+      }
+
+    .card-img {
+        width: 180px;
+        height: 270px;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width: 530px){
+    .shop-all{
+        margin-top: -4rem;
+    }
+}
+
+@media only screen and (max-width: 415px){
+    .shop-all{
+        margin-top: -6rem;
+    }
+}

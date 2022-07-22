@@ -1,0 +1,58 @@
+.header{
+    height: 300px;
+  }
+
+.sobre{
+    margin-top: 2rem;
+}
+
+.titulo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.about{
+    display: flex;
+    font-weight: bold;
+}
+
+.about-all {
+    width: 60%;
+    margin:auto;
+    margin-top: 1rem;
+    
+}
+
+.pic {
+  margin: auto;
+  width: 500px;
+  margin-top: 2rem;
+}
+
+.icon {
+    width: 36px;
+    
+}
+
+@media only screen and (max-width:770px){
+    .about-all {
+        width: 80%;
+    }
+    .pic {
+        width: 250px;
+      }
+     
+}
+
+@media only screen and (max-width: 500px){
+    .sobre{
+        margin-top: -3rem;
+    }
+}
+
+@media only screen and (max-width: 415px){
+    .sobre{
+        margin-top: -5rem;
+    }
+}

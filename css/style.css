@@ -1,0 +1,484 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+:root{
+  --color-header: #1F1F1E;
+  --color-text: #F1F2EB;
+}
+
+.cabecalho-line{
+  background-color: #000;
+  color: var(--color-text);
+  height: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.txt-cab{
+  padding-top: 4px;
+  font-size: 15px;
+}
+
+.header{
+  background-image: url(img/img-cabecalho.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 1000px;
+  display: flex;  
+  
+}
+
+.logo{
+  flex: 1;
+ margin-left: 2rem;
+ margin-top: 2rem;
+}
+
+.nav{
+  flex: 2;
+  margin-top: 5rem;
+
+}
+.nav-list{
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.nav-link{
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 20px;
+
+}
+.nav-link:hover{
+  text-decoration: underline;
+  
+}
+.hamburger{
+  display: none;
+  margin-top: 5rem;
+  margin-right: 2rem;
+}
+ 
+
+
+.titulos{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 2rem;
+    
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.mais-vendidos{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.card-img {
+    width: 300px;
+    height: 450px;
+    align-items: center;
+}
+
+.card {
+    margin-left: 1rem;
+    width: 300px;
+    height: 680px;
+    object-fit: contain;
+    text-align: center;
+}
+
+.text-card{
+    font-weight: bold;
+    font-size: 17px;
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-addcart{
+  background-color: #000;
+  color: #f0eeee;
+  font-size: 15px;
+  width: 80%;
+  height: 25px;
+  margin-top: 4px;
+}
+
+.btn-addcart:hover{
+  height: 30px ;
+  font-size: 16px;
+  width: 85%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.section-category{
+  margin-top: 2rem;
+  background-color: #f0eeee;
+}
+
+.img-category{
+    width: 520px;
+    height: 600px;
+    align-items: center;
+}
+
+.card-category{
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.text-categoria {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+.botao-shopnow {
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    margin-top: 0rem;
+    cursor: pointer;
+    
+}
+
+.categorias {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+
+
+.botao-contato{
+    background-color: #000;
+    color: #fff;
+   width: 150px;
+   height: 40px;
+   margin-top: 2rem;
+   cursor: pointer;
+}
+
+
+.img{
+    width: 400px;
+}
+
+.connect {
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+    margin-bottom: 10rem;
+   
+}
+
+.connect-text {
+    text-align: center;
+    width: 35%;
+   
+}
+
+.connect-img {
+    display: flex;
+    width: auto;
+    margin-top: 2rem ;
+}
+
+
+
+
+.logo-redesocial {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.logo-rodape {
+    display: flex;
+    width: 60px;
+    margin-left: 1rem;
+}
+
+.logo-rodape:hover{
+  width: 65px;
+  transition: 0.2s;
+}
+
+.rodape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.rodape-item {
+    display: flex;
+    padding: 7px;
+    text-decoration: none;
+    color: #000;
+    margin-top: 1.5rem;
+}
+
+.rodape-item-icon{
+    display: flex;
+    padding: 5px;
+    margin-top: 1rem;
+    width: 40px;
+}
+
+.rodape-txt{
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 12px;
+}
+
+
+.reviews{
+    background-color: rgba(0, 0, 0, 0.111);
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size:100%;
+    
+}
+
+.star{
+    width: 40px;
+    padding: 3px;
+    margin-top: -1rem;
+}
+
+.stars{
+    display: flex;
+    justify-content: center;
+}
+
+.frase-review{
+    text-align: center;
+}
+.btn-review{
+  background-color: #000;
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  margin: auto;
+  display: block;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+
+.btn-review:hover{
+  width: 170px;
+   height: 45px;
+   font-size: 15px;
+   transition: 0.2s;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:770px){
+    .element.style{
+    right: 420px;
+    }
+    .nav{
+      position: fixed;  
+      width: 200px;
+      height: 600px;
+      top: 0;
+      bottom: 0;
+      right: -200px;
+      background-color: var(--color-header); 
+       transition: right 0.3s ease-out;
+    }
+    .nav-list{
+      flex-direction: column;
+      height: 80%;
+      align-items: center;  
+      margin-top: 60px; 
+    }
+    .hamburger{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 23px;
+      width: 30px;
+      cursor: pointer;
+      z-index: 2;
+      transition: all 0.3s ease-out;
+    }  
+    .line{
+      width: 100%;
+      height: 2px;
+      background-color: var(--color-text);
+      transform-origin: left;
+      transition: all 0.3s ease-out;
+    }
+    
+    .header{
+      height: 250px
+    }
+   
+  
+      /*Hamburger Menu Animation*/
+    
+    .hamburger.active{
+      margin-right: 60px;
+      transition: all 0.3s ease-out;
+    }
+    .hamburger.active .line:nth-child(2){
+      opacity: 0;
+    }
+    
+    .hamburger.active .line:nth-child(1){
+      transform: translateY(5px) rotate(45deg);
+    }
+    .hamburger.active .line:nth-child(3){
+      transform: translateY(5px) rotate(-45deg);
+    }
+
+    /*BODY*/
+    .titulos{
+      font-size: 35px;
+    }
+
+  .mais-vendidos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    .card {
+      margin:auto;
+      width: 170px;
+      height: 430px;
+    }
+
+    .card-img {
+      width: 180px;
+      height: 280px;
+      align-items: center;
+    }
+
+
+    .categorias {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 0rem;
+    }
+
+    .card-category{
+    margin:auto;
+    margin-top: 0rem;
+    }
+
+    .img-category{
+    width: 350px;
+    height: 490px;
+    margin-top: 2rem;
+    }
+
+    .connect-text{
+      margin-left: 0px;
+    }
+
+    .connect{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 5rem;
+    }
+
+    .connect-text{
+      width: 80%;
+      margin-right: 0px;
+    }
+
+    .connect-img {
+      display: flex;
+      width: auto;
+      margin-top: 2rem;
+    }
+    
+    .titulos{
+      margin-bottom: 1rem;
+    }
+
+    .rodape-item {
+      display: flex;
+      padding: 5px;
+      text-decoration: none;
+      color: #000;
+      margin-top: 0.5rem;
+   }
+
+  .img-review{
+    width: 400px;
+    height: 300px;
+  }
+
+}
+
+  @media only screen and (min-width: 770px){
+
+    .header{
+      height: auto;
+    }
+    .best-seller{
+      margin-top: 2rem;
+    }
+
+  }
+
+  @media only screen and (min-width: 1000px){
+    .header{
+      height: 480px
+    }
+
+    .best-seller{
+      margin-top: 3rem;
+    }
+  }
+
+  @media only screen and (min-width: 1500px){
+    .header{
+      height: 680px
+    }
+
+    .best-seller{
+      margin-top: 2rem;
+    }
+  }
+
+  @media only screen and (min-width: 1800px){
+    .header{
+      height: 900px
+    }
+
+    .best-seller{
+      margin-top: 3rem;
+    }
+  }
