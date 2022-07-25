@@ -1,5 +1,5 @@
-# ADStore
-Street wear store
+# E-commerce
+Foi desennvolvido a parte de front-end do e-commerce, faltando emplementar o back-end.
 
 <h2>Sobre</h2>
 
@@ -21,7 +21,5 @@ Street wear store
 
 
 <div align="center">
-  <img height="600em" src="https://user-images.githubusercontent.com/100965375/180849219-6cfe8265-3cf8-4a00-bcc6-2c34eef55d49.png"/>
-  <img height="800em" src="https://user-images.githubusercontent.com/100965375/180849222-382e5646-e199-4a03-90d1-a44f493829c4.png"/>
-  <img height="900em" src="https://user-images.githubusercontent.com/100965375/180849224-3de9325d-df68-4b3c-bb0a-206b83238ccd.png"/>
+  <img height="6500px" width="800px" src="https://user-images.githubusercontent.com/100965375/180867130-60f58bd5-5bd4-45c3-9f26-284d02b81d23.png"/>
 </div>
