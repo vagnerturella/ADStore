@@ -5,13 +5,13 @@ Street wear store
 
 - ADStore é uma loja online de um amigo, localizado na australia. Resolvi aplicar meus conhecimentos e replicar o projeto. Para desenvolver o e-commerce foi utilizado html, css e javascript. 
 - As páginas estão todas responsivas.
-- Menu dropdown com informçoes da loja e dos produtos.
+- Menu dropdown com informaçoes da loja e dos produtos.
 - Card do produto, mostrando imagem, nome, preço, porcentagem de desconto.
 - Carousel de cards responsivo.
 - Sobre a loja.
 - Reviews reais de clientes.
-- Opção para login (somente ilustrativo)
-- Opção Add to Cart (somente ilustrativo)
+- Opção para login (será desenvolvido futuramente)
+- Opção Add to Cart (será desenvolvido futuramente)
 
 <h3>💻 &nbsp;Front-end:</h3>
 
@@ -21,7 +21,7 @@ Street wear store
 
 
 <div align="center">
-  <a href="https://github.com/vagnerturella">
-  <img height="180em" src="![1](https://user-images.githubusercontent.com/100965375/180845837-2c7a933d-2a5c-45e5-93ba-4b0713b7f4ab.png)"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vagnerturella&layout=compact&langs_count=7&theme=dark"/>
+  <img height="600em" src="https://user-images.githubusercontent.com/100965375/180849219-6cfe8265-3cf8-4a00-bcc6-2c34eef55d49.png"/>
+  <img height="800em" src="https://user-images.githubusercontent.com/100965375/180849222-382e5646-e199-4a03-90d1-a44f493829c4.png"/>
+  <img height="900em" src="https://user-images.githubusercontent.com/100965375/180849224-3de9325d-df68-4b3c-bb0a-206b83238ccd.png"/>
 </div>
