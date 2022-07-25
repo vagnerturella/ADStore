@@ -22,6 +22,6 @@ Street wear store
 
 <div align="center">
   <a href="https://github.com/vagnerturella">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=vagnerturella&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="![1](https://user-images.githubusercontent.com/100965375/180845837-2c7a933d-2a5c-45e5-93ba-4b0713b7f4ab.png)"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vagnerturella&layout=compact&langs_count=7&theme=dark"/>
 </div>
